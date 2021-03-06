@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* Start for clip path circle */
+.circle{
+	text-align: center;
+}
+.circle img{
+	clip-path: circle(30% at 40% 40%);
+}
+/* End for clip path circle*/
+
+/* Start for clip path ellipse */
+.ellipse{
+	text-align: center;
+}
+.ellipse img{
+	clip-path: ellipse(20% 70% at 40% 40%);
+}
+/* End for clip path ellipse*/
+
+/* Start for clip path inset */
+.inset{
+	text-align: center;
+}
+.inset img{
+	clip-path: inset(40% 20% 0% 0%);
+}
+/* End for clip path inset*/
+
+/* Start for clip path polygon */
+.polygon {
+	text-align: center;
+}
+.polygon  img{
+	clip-path: polygon(20% 40%,50% 20%,20% 67%);
+}
+/* End for clip path polygon */
